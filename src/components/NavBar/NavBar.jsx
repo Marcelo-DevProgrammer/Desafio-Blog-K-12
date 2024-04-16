@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './NavBar.css'; // Certifique-se de criar este arquivo CSS com os estilos fornecidos
+import './NavBar.css';
 
 const NavBar = () => {
   return (
@@ -16,6 +16,7 @@ const NavBar = () => {
         <Link to="/singin" className="navbar__link">
           <button className="navbar__button navbar__button--signup">Sign Up</button>
         </Link>
+        <Link to="/post"></Link>
       </div>
     </nav>
   );

@@ -1,0 +1,48 @@
+.login-page {
+    background-color: #C5C6C8;
+    width: 100%;
+    color: #202833;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 427px;
+    background-color: #C5C6C8;
+    padding: 20px;
+}
+
+.title-page-login {
+    font-size: 36px;
+    text-align: center;
+}
+
+.description-titlelogin {
+    font-size: 16px;
+    text-align: center;
+}
+
+.description-link {
+    text-decoration: none;
+    color: #66FCF1;
+}
+
+.input {
+    align-items: center;
+    width: 100%;
+    height: 49px;
+    border: 1px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.button-login-page {
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    color: white;
+    background-color: #202833;
+    padding: 14px 27px;
+}

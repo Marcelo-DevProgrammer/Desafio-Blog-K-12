@@ -8,103 +8,6 @@
     margin: 0px;
     padding: 0px;
 }
-header {
-    background-color: #0B0C10;
-    width: 100%;
-    height: 124px;
-    color: #66FCF1;
-    padding: 1em;
-    display: flex;
-}
-
-.list-header {
-    display: flex;
-    list-style: none;
-    align-items: center;
-}
-.header-item-posts{
-    background-color: #0B0C10;
-    text-decoration: none;
-    margin-right: 1em;
-    font-size: 20px;
-}
-.header-item-singin {
-    background-color: #0B0C10;
-    font-size: large;
-    padding: 14px 27px 14px 27px;
-    gap: 10px;
-    border: 1px;
-    margin-right: 1em;
-    color: #66FCF1;
-}
-.header-item-login {
-    background-color: #202833;
-    color: white;
-    margin-right: 1em;
-    font-size: large;
-    padding: 14px 27px 14px 27px;
-}
-
-.title-page-login {
-    font-size: 36px;
-    text-align: center;
-    background-color: #C5C6C8;
-}
-.description-titlelogin {
-    font-size: 16px;
-    text-align: center;
-    background-color: #C5C6C8;
-}
-.description-link {
-    text-decoration: none;
-    color: #66FCF1;
-    background-color: #C5C6C8;
-
-}
-.input {
-    align-items: center;
-    width: 427px;
-    height: 49px;
-    border: 1px;
-    font-size: 15px;
-}
-
-.button-login-page {
-    align-items: center;
-    width: 427px;
-    height: 56px;
-    color: white;
-    background-color: #202833;
-    padding: 14px 27px 14px 27px;
-    gap: 10px;
-}
-.singin-page {
-    background-color: #C5C6C8;
-    width: 100%;
-    color: #202833;
-    text-align: center;
-    align-items: center;
-    height: 100%;
-}
-.title-page-singin {
-    font-size: 36px;
-    text-align: center;
-    background-color: #C5C6C8;
-}
-.description-titlesingin {
-    font-size: 16px;
-    text-align: center;
-    background-color: #C5C6C8;
-}
-.button-singin-page {
-    align-items: center;
-    width: 427px;
-    height: 56px;
-    color: white;
-    background-color: #202833;
-    padding: 14px 27px 14px 27px;
-    gap: 10px;
-}
 .highlight {
     background-color: #C5C6C8;
     width: 100%;
@@ -135,6 +38,7 @@ header {
     gap: 0px;
     opacity: 0px;
 }
+
 .img-highlight-description {
     font-size: 32px;
     font-weight: 500;
