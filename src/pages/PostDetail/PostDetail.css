@@ -1,0 +1,15 @@
+.post-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+.post-detail h2 {
+    color: #66FCF1;
+}
+
+.post-detail p {
+    color: #C5C6C8;
+    line-height: 1.5;
+}
