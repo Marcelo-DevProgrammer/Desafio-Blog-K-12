@@ -2,14 +2,49 @@
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    
+    background-color: #0B0C10;
+    color: #C5C6C8;
 }
 
 .post-detail h2 {
     color: #66FCF1;
+    font-size: 28px;
+    margin-bottom: 20px;
 }
 
 .post-detail p {
-    color: #C5C6C8;
     line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.post-detail img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.post-detail h3 {
+    color: #66FCF1;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-detail ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.post-detail li {
+    margin-bottom: 15px;
+}
+
+.post-detail li p {
+    margin-bottom: 5px;
+    color: #C5C6C8;
+}
+
+.post-detail li p.author {
+    color: #66FCF1;
+    font-weight: bold;
 }
