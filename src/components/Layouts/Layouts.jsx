@@ -5,12 +5,12 @@ import './Layouts.css';
 
 const Layouts = ({ children }) => {
   return (
-    <div>
+    <div className="layout-container">
         <NavBar />
-        <div className="content">{children}</div> 
-        <Footer/>
+        <div className="main-content">{children}</div> 
+        <Footer /> 
     </div>
   );
-};
+}
 
 export default Layouts;

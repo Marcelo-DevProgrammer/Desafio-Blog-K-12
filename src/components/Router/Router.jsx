@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Posts, SingIn, Login, PostDetail } from '../../pages';
-import { Layouts } from '..';
+import { Layouts } from '../../components';
 
 const Router = () => {
   return (

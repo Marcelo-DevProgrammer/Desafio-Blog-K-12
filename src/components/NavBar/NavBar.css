@@ -23,6 +23,8 @@
 .navbar__right {
   display: flex;
   gap: 10px;
+  align-items: center;
+  padding-right: 30px; /* Centralizar verticalmente os botões */
 }
 
 .navbar__link {
@@ -30,13 +32,13 @@
 }
 
 .navbar__button {
-  width: 103px;
+  width: auto; /* Remova a largura fixa */
   height: 56px;
   padding: 14px 27px;
   background: #202833;
   color: white;
   border: none;
-  font-size: 20px;
+  font-size: 19px;
   font-weight: 700;
   line-height: 24.2px;
   text-align: left;
@@ -47,6 +49,13 @@
 }
 
 .navbar__button--signup {
+  color: #46A29F;
+  background: none;
+  border: 1px solid #46A29F;
+  padding: 14px 20px; /* Ajuste o padding conforme necessário */
+}
+
+.navbar__button--posts {
   color: #46A29F;
   background: none;
   border: 1px solid #46A29F;
