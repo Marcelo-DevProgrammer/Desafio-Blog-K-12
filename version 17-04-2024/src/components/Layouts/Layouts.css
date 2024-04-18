@@ -1,0 +1,13 @@
+
+.layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Isso garante que o conteúdo ocupe toda a altura da tela */
+}
+    
+.main-content {
+    margin-top: 124px;
+    flex: 1; /* Isso faz com que o conteúdo ocupe o espaço disponível restante */
+    margin-bottom: 101px; /* Igual à altura do footer para manter espaço no final */
+}
+    
